@@ -1,0 +1,3 @@
+/home/selimon/Desktop/DSA/Linked_Lists/simple_linked_list/build/CMakeFiles/simple_linked_list.dir
+/home/selimon/Desktop/DSA/Linked_Lists/simple_linked_list/build/CMakeFiles/edit_cache.dir
+/home/selimon/Desktop/DSA/Linked_Lists/simple_linked_list/build/CMakeFiles/rebuild_cache.dir
