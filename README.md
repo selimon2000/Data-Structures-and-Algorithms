@@ -65,7 +65,7 @@ You will find a folder called 'Practice' in each directory. This is me practicin
 - Have included popular recursive functions, to keep up with my recursive skills.
 
 ### Searching Algorithms
-- I am yet to complete this
+- Binary Search
 
 ### Sorting Algorithms
 - I am yet to complete this
