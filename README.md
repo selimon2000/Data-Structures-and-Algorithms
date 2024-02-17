@@ -10,10 +10,10 @@ You will find a folder called 'Practice' in each directory. This is me practicin
 ### Linked Lists
 - Singly Linked List
   - Class Implementation
-  - STL Implementation: Forward List
+  - std Implementation: Forward List
 - Doubly Linked List
   - Class Implementation
-  - STL Implementation: Forward List
+  - std Implementation: Forward List
 - Circular Linked List
   - Class Implementation
   
@@ -21,29 +21,29 @@ You will find a folder called 'Practice' in each directory. This is me practicin
 ### Stack
 - Class Implementation using Forward List
 - Class Implementation using Array
-- STL Implementation: Stack
+- std Implementation: Stack
 
 ### Queue
 - Class Implementation using List
 - Class Implementation using Array
-- STL Implementation: Queue
+- std Implementation: Queue
 
 ### Deque
-- STL Implementation: Deque
+- std Implementation: Deque
   
 ### Hashmap
 - Class Implementation: Separate Chaining using Lists
 - Class Implementation: Linear Probing using Array
-- STL Implementation: Map
-- STL Implementation: Unordered Map
-- STL Implementation: Multimap Map
-- STL Implementation: Unordered Multimap
+- std Implementation: Map
+- std Implementation: Unordered Map
+- std Implementation: Multimap Map
+- std Implementation: Unordered Multimap
 
 ### Set
-- STL Implementation: Map
-- STL Implementation: Unordered Map
-- STL Implementation: Multimap Map
-- STL Implementation: Unordered Multimap
+- std Implementation: Map
+- std Implementation: Unordered Map
+- std Implementation: Multimap Map
+- std Implementation: Unordered Multimap
 
 ### Trees
 - Class Implementation
@@ -65,7 +65,11 @@ You will find a folder called 'Practice' in each directory. This is me practicin
 - Have included popular recursive functions, to keep up with my recursive skills.
 
 ### Searching Algorithms
-- Binary Search
+- Binary Search using function
+- Binary Search using std implementations:
+  - binary_search
+  - lower_bound
+  - upper_bound
 
 ### Sorting Algorithms
 - I am yet to complete this
