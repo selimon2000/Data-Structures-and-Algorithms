@@ -72,4 +72,11 @@ You will find a folder called 'Practice' in each directory. This is me practicin
   - upper_bound
 
 ### Sorting Algorithms
-- I am yet to complete this
+- Bubble Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Selection Sort
+- Std Implementations
+  - sort
+  - stable_sort
