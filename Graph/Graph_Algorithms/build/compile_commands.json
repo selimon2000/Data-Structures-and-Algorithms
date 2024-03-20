@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/selimon/Desktop/DSA/Graph/Graph_Algorithms/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/main.dir/main.cpp.o -c /home/selimon/Desktop/DSA/Graph/Graph_Algorithms/main.cpp",
+  "file": "/home/selimon/Desktop/DSA/Graph/Graph_Algorithms/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/home/selimon/Desktop/DSA/Graph/Graph_Algorithms/build",
+  "command": "/usr/bin/c++   -g -o CMakeFiles/main.dir/graph_hashmap_class.cpp.o -c /home/selimon/Desktop/DSA/Graph/Graph_Algorithms/graph_hashmap_class.cpp",
+  "file": "/home/selimon/Desktop/DSA/Graph/Graph_Algorithms/graph_hashmap_class.cpp",
+  "output": "CMakeFiles/main.dir/graph_hashmap_class.cpp.o"
+}
+]
