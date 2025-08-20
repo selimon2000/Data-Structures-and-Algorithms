@@ -1,6 +1,6 @@
 # Data-Structures-and-Algorithms
 
-## Data Structures
+ ## Data Structures
 When Data Structures, I decided to learn all the different versions and programming implementations. In this folder are all my implementations of Data Structures, written in both C and C++.
 
 In the implementations where I have included DSA functions as methods. E.g. in Binary Search Tree I have a method to find the height of a BST.
