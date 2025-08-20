@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/selimon/Desktop/DSA/Linked_Lists/simple_linked_list/Node.cpp" "CMakeFiles/simple_linked_list.dir/Node.cpp.o" "gcc" "CMakeFiles/simple_linked_list.dir/Node.cpp.o.d"
-  "/home/selimon/Desktop/DSA/Linked_Lists/simple_linked_list/main.cpp" "CMakeFiles/simple_linked_list.dir/main.cpp.o" "gcc" "CMakeFiles/simple_linked_list.dir/main.cpp.o.d"
+  "/home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_header_file/Node.cpp" "CMakeFiles/simple_linked_list.dir/Node.cpp.o" "gcc" "CMakeFiles/simple_linked_list.dir/Node.cpp.o.d"
+  "/home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_header_file/main.cpp" "CMakeFiles/simple_linked_list.dir/main.cpp.o" "gcc" "CMakeFiles/simple_linked_list.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/selimon/Desktop/DSA/Advent_of_Code/2023/Q2/build",
+  "command": "/usr/bin/c++   -g -std=gnu++17 -o CMakeFiles/GameCounter.dir/main.cpp.o -c /home/selimon/Desktop/DSA/Advent_of_Code/2023/Q2/main.cpp",
+  "file": "/home/selimon/Desktop/DSA/Advent_of_Code/2023/Q2/main.cpp",
+  "output": "CMakeFiles/GameCounter.dir/main.cpp.o"
+}
+]

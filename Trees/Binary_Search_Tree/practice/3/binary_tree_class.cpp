@@ -70,13 +70,10 @@ void BinarySearchTree::insert(int data) {
     Node** current = &root;
 
     while (*current != nullptr) {
-        // If the same number already exists, then go left, and then go to the right-most node. We could do the opposite - Go right and then go to left most node too
-        if (data == (*current)->data)
-            current = &(*current)->left;
-        else if (data > (*current)->data)
-            current = &(*current)->right;
+        if (data > (*current)->data)
+            current = &(*current)->right; // Go right if data is greater
         else
-            current = &(*current)->left;
+            current = &(*current)->left; // Go left if data is less
     }
     
     *current = new Node(data);    
@@ -243,6 +240,7 @@ Node* BinarySearchTree::getInorderSuccessor(Node* target_node) {
     }
     
     int target = target_node->data;
+    // Eventually current will equal to  the target_node
     Node* current = root;
     Node* successor = current;
 
@@ -267,7 +265,7 @@ bool BinarySearchTree::isBSTUnwrapped(Node* current) {
     if (current == nullptr)
         return true;
     
-    return (isBSTUnwrapped(current->left) && isBSTUnwrapped(current->left) &&
+    return (isBSTUnwrapped(current->left) && isBSTUnwrapped(current->right) &&
             isSubtreeLesser(current->left, current->data) && isSubtreeGreater(current->right, current->data));
 }
 // Checking if all values of subtree is lesser than or equal to the node's value
@@ -339,5 +337,7 @@ int main() {
     my_tree.insert(8);
     my_tree.insert(8);
 
-    my_tree.printLeaves();
+    // my_tree.printLeaves();
+    my_tree.DFSInorder();
+    std::cout << std::endl;
 }

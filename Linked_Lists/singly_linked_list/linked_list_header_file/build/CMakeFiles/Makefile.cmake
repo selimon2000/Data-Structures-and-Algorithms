@@ -99,7 +99,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/selimon/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
   "/home/selimon/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/Linux.cmake"
   "/home/selimon/.local/lib/python3.8/site-packages/cmake/data/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
-  "/home/selimon/Desktop/DSA/Linked_Lists/simple_linked_list/CMakeLists.txt"
+  "/home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_header_file/CMakeLists.txt"
   "CMakeFiles/3.26.4/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.4/CMakeSystem.cmake"

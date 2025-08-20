@@ -80,9 +80,9 @@ int main() {
     std::cout << binarySearchOccurance(array, 3, sizeof(array)/sizeof(array[0]), false) << std::endl << std::endl;
 
     // Find the difference
-    int left = binarySearchOccurance(array, 3, sizeof(array)/sizeof(array[0]), true);
-    if (left == -1)
-        std::cout << "Number of occurences is: 0" << std::endl;
-    else
-        std::cout << "Number of occurences is: " << binarySearchOccurance(array, 3, sizeof(array)/sizeof(array[0]), false) - left + 1 << std::endl << std::endl;
+    // int left = binarySearchOccurance(array, 3, sizeof(array)/sizeof(array[0]), true);
+    // if (left == -1)
+    //     std::cout << "Number of occurences is: 0" << std::endl;
+    // else
+    //     std::cout << "Number of occurences is: " << binarySearchOccurance(array, 3, sizeof(array)/sizeof(array[0]), false) - left + 1 << std::endl << std::endl;
 }

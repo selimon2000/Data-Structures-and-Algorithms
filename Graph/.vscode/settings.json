@@ -73,6 +73,7 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp",
-        "bit": "cpp"
+        "bit": "cpp",
+        "using_unordered_map_and_unordered_multimap_v2_with_nodes": "cpp"
     }
 }

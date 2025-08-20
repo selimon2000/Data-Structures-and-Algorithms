@@ -4,8 +4,7 @@
 #define table_size 10
 
 
-class HashTable
-{
+class HashTable {
 private:
     std::forward_list<std::pair<int, std::string>> hash_table[table_size];
 

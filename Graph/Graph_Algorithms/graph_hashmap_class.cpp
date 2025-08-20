@@ -1,11 +1,9 @@
 #include "graph_hashmap_class.h"
 
+
 void Graph::addEdge(std::string x, std::string y, int wt, bool isBidirect) {
-    map[x].push_back({y, wt});
-
-    if (!isBidirect)
-        return;
-
+    map[x].emplace_back(y, wt);
+    if (!isBidirect) return;
     map[y].push_back({x, wt});
 }
 
@@ -28,8 +26,7 @@ void Graph::BFS() {
     // std::vector<std::string> visited;
     std::unordered_set<std::string> visited;
 
-    if (map.empty())
-        return;
+    if (map.empty()) return;
     
     // Starting with node at map.begin()
     std::string current_node = map.begin()->first;
@@ -242,4 +239,8 @@ void Graph::Dijkstra(std::string s) {
     }
 
     std::cout << std::endl;
+}
+
+void Graph::hasPath(std::string s) {
+
 }

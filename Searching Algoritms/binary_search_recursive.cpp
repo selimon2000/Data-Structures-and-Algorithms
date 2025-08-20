@@ -16,5 +16,5 @@ bool binarySearchExists(int array[], int target, int start, int end) {
 
 int main() {
     int array[] = {1, 2, 3, 4, 5};
-    std::cout << binarySearchExists(array, 6, 0, sizeof(array)/sizeof(array[0]));
+    std::cout << binarySearchExists(array, 5, 0, sizeof(array)/sizeof(array[0])) << std::endl;
 }

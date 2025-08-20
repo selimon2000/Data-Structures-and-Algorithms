@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/trie_program.dir/main.cpp.o -o trie_program 

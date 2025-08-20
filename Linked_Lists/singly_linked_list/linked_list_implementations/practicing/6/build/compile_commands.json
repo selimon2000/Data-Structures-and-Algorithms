@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_implementations/practicing/6/build",
+  "command": "/usr/bin/c++   -g -std=gnu++14 -o CMakeFiles/Linked_List_Project.dir/main.cpp.o -c /home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_implementations/practicing/6/main.cpp",
+  "file": "/home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_implementations/practicing/6/main.cpp",
+  "output": "CMakeFiles/Linked_List_Project.dir/main.cpp.o"
+}
+]

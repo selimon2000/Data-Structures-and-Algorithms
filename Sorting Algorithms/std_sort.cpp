@@ -1,19 +1,35 @@
 #include <iostream>
 #include <algorithm>
+#include <utility>
+
+using namespace std;
+
+
+// int main() {
+//     int my_array[] = {88, 6, 5, 1, 4, 3, 9, 2};
+//     int n = sizeof(my_array) / sizeof(my_array[0]);
+
+//     // Print array before merging:
+//     for (int i = 0; i < n; i++)
+//         std::cout << my_array[i] << ", ";
+//     std::cout << std::endl;
+
+//     std::sort(my_array, my_array + n);
+
+//     // Print array afert merging:
+//     for (int i = 0; i < n; i++)
+//         std::cout << my_array[i] << ", ";
+//     std::cout << std::endl;
+// }
+
 
 int main() {
-    int my_array[] = {88, 6, 5, 1, 4, 3, 9, 2};
-    int n = sizeof(my_array) / sizeof(my_array[0]);
 
-    // Print array before merging:
-    for (int i = 0; i < n; i++)
-        std::cout << my_array[i] << ", ";
-    std::cout << std::endl;
+    int x = 1,
+        y = 2;
 
-    std::sort(my_array, my_array + n);
+    cout << "X: " << x << "\ty: " << y << endl;
 
-    // Print array afert merging:
-    for (int i = 0; i < n; i++)
-        std::cout << my_array[i] << ", ";
-    std::cout << std::endl;
+    swap(x, y);
+    cout << "X: " << x << "\ty: " << y << endl;
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/A_star/a-star" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/A_star/astar-algorithm-cpp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/A_star/pyastar2d" vcs="Git" />
+  </component>
+</project>

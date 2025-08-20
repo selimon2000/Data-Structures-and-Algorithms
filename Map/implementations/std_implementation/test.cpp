@@ -1,53 +1,52 @@
 #include <iostream>
-#include <vector>
-#include <unordered_map>
-#include <map>
+
 #include <string>
+#include <cstdint>
+#include <ctype.h>
+
 #include <list>
+#include <unordered_map>
+#include <set>
+#include <unordered_set>
+#include <map>
 
 using namespace std;
 
-// /*
-struct CityRecord {
-    std::string Name;
-    uint64_t Population;
-    double Latitutde, Longitude;
-};
-typedef struct CityRecord NewCityRecord;
+
+// using NewCityRecord = struct CityRecord {
+//     std::string Name;
+//     uint64_t Population;
+//     double Latitutde, Longitude;
+// };
+
+// int main() {
+//     std::unordered_map<std::string, NewCityRecord> cityMap;
+//     cityMap["Melbourne"] = NewCityRecord{"Melbourne", 5'000'000, 2.4, 9.4};
+//     cityMap["Lol-town"] = NewCityRecord{"Lol-town", 5'000'000, 2.4, 9.4};
+//     cityMap["Berlin"] = NewCityRecord{"Berlin", 5'000'000, 2.4, 9.4};
+//     cityMap["Paris"] =  NewCityRecord{"Paris", 5'000'000, 2.4, 9.4};
+//     cityMap["London"] =     NewCityRecord{"London", 5'000'000, 2.4, 9.4};
+
+//     cityMap.insert({"Singapore", NewCityRecord{"Singapore", 20'000'000, 2.4, 9.4}});
+//     cityMap.emplace("Gotham", NewCityRecord{"Gotham", 21'054'009, 2.4, 9.4});
+
+//     for (auto it = cityMap.cbegin(); it != cityMap.cend(); ++it)
+//         std::cout << it->first << '\t'<< '\t' << (it->second).Population << '\n';
+// }
 
 
-int main() {
-    std::unordered_map<std::string, NewCityRecord> cityMap;
-    cityMap["Melbourne"] = NewCityRecord{"Melbourne", 5000000, 2.4, 9.4};
-    cityMap["Lol-town"] = NewCityRecord{"Lol-town", 5000000, 2.4, 9.4};
-    cityMap["Berlin"] = NewCityRecord{"Berlin", 5000000, 2.4, 9.4};
-    cityMap["Paris"] = NewCityRecord{"Paris", 5000000, 2.4, 9.4};
-    cityMap["London"] = NewCityRecord{"London", 5000000, 2.4, 9.4};
+// int main() {
+//   map<int, string> sample_map;
+//   sample_map.insert(pair<int, string>{1, "one"});
+//   sample_map.insert(pair<int, string>{2, "two"});
 
-    cityMap.insert({"Singapore", NewCityRecord{"Singapore", 20'000'000, 2.4, 9.4}});
-    cityMap.emplace("Gotham", NewCityRecord{"Gotham", 21'054'009, 2.4, 9.4});
-
-    for (auto it = cityMap.begin(); it != cityMap.end(); it++)
-        std::cout << (it->second).Name << ", ";
-
-    std::cout << std::endl << cityMap["Gotham"].Population;
-}
-// */
-
-
-/*
-int main() {
-  map<int, string> sample_map;
-  sample_map.insert(pair<int, string>(1, "one"));
-  sample_map.insert(pair<int, string>(2, "two"));
-
-  cout << sample_map[1] << " " << sample_map[2] << endl;
-}
-*/
+//   cout << sample_map[1] << endl
+//        << sample_map[2] << endl;
+// }
 
 
 // CodeBeauty Maps Video: English -> German Translation
-/*
+
 int main() {
     std::unordered_map<std::string, std::string> myDictionary;
     myDictionary.insert({"apple", "der Apfel"});
@@ -57,6 +56,7 @@ int main() {
 
     myDictionary["beets"] = "lol";
 
+    // myDictionary.insert({"pear", "adcsfbhl"});
     myDictionary.insert({"pear", "adcsfbhl"});
 
     // for(std::unordered_map<std::string, std::string>::const_iterator it = myDictionary.cbegin(); it != myDictionary.cend(); it++) {
@@ -64,9 +64,7 @@ int main() {
     // }
     for(auto pair : myDictionary)
         std::cout << "Key: " << pair.first << "\t\tValue: " << pair.second << std::endl;
-
 }
-*/
 
 
 /*
@@ -99,3 +97,13 @@ int main() {
     }
 }
 */
+
+
+// int main() {
+//     int arr[] = {1,5,3,2,7,34,1,0};
+//     set<int> set_from_array{begin(arr), end(arr)};
+//     // Print every element in set
+//     for(auto num : set_from_array)
+//         cout << num << ", ";
+//     cout << endl;
+// }

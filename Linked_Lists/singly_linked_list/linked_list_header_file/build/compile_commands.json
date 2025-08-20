@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_header_file/build",
+  "command": "/usr/bin/c++  -I/home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_header_file  -std=c++11 -g -o CMakeFiles/simple_linked_list.dir/main.cpp.o -c /home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_header_file/main.cpp",
+  "file": "/home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_header_file/main.cpp",
+  "output": "CMakeFiles/simple_linked_list.dir/main.cpp.o"
+},
+{
+  "directory": "/home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_header_file/build",
+  "command": "/usr/bin/c++  -I/home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_header_file  -std=c++11 -g -o CMakeFiles/simple_linked_list.dir/Node.cpp.o -c /home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_header_file/Node.cpp",
+  "file": "/home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_header_file/Node.cpp",
+  "output": "CMakeFiles/simple_linked_list.dir/Node.cpp.o"
+}
+]

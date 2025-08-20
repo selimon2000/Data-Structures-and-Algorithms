@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/selimon/Desktop/DSA/Linked_Lists/simple_linked_list
+CXX_INCLUDES = -I/home/selimon/Desktop/DSA/Linked_Lists/singly_linked_list/linked_list_header_file
 
-CXX_FLAGS =  -std=c++11
+CXX_FLAGS =  -std=c++11 -g
 

@@ -21,19 +21,18 @@ int main() {
     
     for (int value : s)
         std::cout << value << ", ";
+    std::cout << std::endl << std::endl;
 
     std::set<int>::iterator it = s.begin();
     s.erase(it);
     s.erase(24);
 
-    std::cout << std::endl << std::endl;
     for (std::set<int>::iterator it = s.begin(); it != s.end(); it++)
         std::cout << *it << ", ";
+    std::cout << std::endl << std::endl;
 
-
-/*
-
-
+// /*
+// Reordering an array with a set
 // declare array
 int out_of_order[] = {2,1,4,3, 5, 4, 4, 4, 4};
    
@@ -42,8 +41,8 @@ set<int> set_from_array{begin(out_of_order), end(out_of_order)};
    
 // print every element in set
 for (auto it=set_from_array.begin(); it!=set_from_array.end(); ++it)
-    cout << ' ' << *it;
+    cout << *it << ", ";
 cout << '\n';
 // output: 1 2 3 4 5
-*/
+// */
 }

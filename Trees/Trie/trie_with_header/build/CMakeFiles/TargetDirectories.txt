@@ -1,0 +1,3 @@
+/home/selimon/Desktop/DSA/Trees/Trie/trie_with_header/build/CMakeFiles/trie_program.dir
+/home/selimon/Desktop/DSA/Trees/Trie/trie_with_header/build/CMakeFiles/edit_cache.dir
+/home/selimon/Desktop/DSA/Trees/Trie/trie_with_header/build/CMakeFiles/rebuild_cache.dir

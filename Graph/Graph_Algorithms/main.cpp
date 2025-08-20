@@ -2,6 +2,8 @@
 #include <iostream>
 
 
+using namespace std;
+
 // DAG
 int main() {
     Graph g;
@@ -31,4 +33,6 @@ int main() {
     g.SSSP_Distance("B");
 
     g.Dijkstra("C");
+
+    g.hasPath("C")
 }

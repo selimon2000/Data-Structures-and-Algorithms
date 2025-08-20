@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/selimon/Desktop/DSA/Trees/Binary_Search_Tree/practice/6/build",
+  "command": "/usr/bin/c++  -I/home/selimon/Desktop/DSA/Trees/Binary_Search_Tree/practice/6 -g -std=gnu++17 -o CMakeFiles/BinarySearchTree.dir/main.cpp.o -c /home/selimon/Desktop/DSA/Trees/Binary_Search_Tree/practice/6/main.cpp",
+  "file": "/home/selimon/Desktop/DSA/Trees/Binary_Search_Tree/practice/6/main.cpp",
+  "output": "CMakeFiles/BinarySearchTree.dir/main.cpp.o"
+}
+]
